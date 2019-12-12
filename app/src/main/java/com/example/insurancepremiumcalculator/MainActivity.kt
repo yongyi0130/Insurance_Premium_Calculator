@@ -67,7 +67,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             viewModel.payment = premium
-
             lblAmount.text = viewModel.payment.toString()
         }
 
